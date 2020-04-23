@@ -42,14 +42,14 @@ begin
             A <= "1111";
             B <= "1111";
             Cin <= '1';
-		end loop
+		end loop;
 
 		for i in 0 to 5000000 loop
             wait for 100 ns;
             A <= "1111";
             B <= "1111";
             Cin <= '0';
-		end loop
+		end loop;
 
     report "end TIME = " & time'image(now);
 	wait;

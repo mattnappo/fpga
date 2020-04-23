@@ -12,10 +12,9 @@ entity full_adder is
 end full_adder;
   
 architecture rtx of full_adder is
-
 begin
 		 
 	S <= A XOR B XOR Cin ;
-    Cout <= (A AND B) OR (Cin AND A) OR (Cin AND B)
+    Cout <= (A AND B) OR (Cin AND A) OR (Cin AND B);
 
 end rtx;

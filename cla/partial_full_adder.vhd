@@ -13,7 +13,6 @@ entity partial_full_adder is
 end partial_full_adder;
  
 architecture rtx of partial_full_adder is
-
 begin
 		 
     S <= A xor B xor Cin;
